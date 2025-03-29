@@ -14,7 +14,7 @@ A Python library for controlling the Inspire Hand RH56dfq robotic hand through a
 ## Installation
 
 ```bash
-pip install inspire-hand
+pip install git+https://github.com/yourusername/inspire-hand-pkg.git
 ```
 
 ## Quick Start
