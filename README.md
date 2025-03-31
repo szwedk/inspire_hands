@@ -19,10 +19,13 @@ pip install git+https://github.com/yourusername/inspire-hand-pkg.git
 
 ## Quick Start
 
-To just quickly interact with the CLI:
+To just quickly interact with the CLI manually (CLI can also be called purely from terminal/bash commands, see below).
+
 ```bash
 python -m inspire_hand.cli interactive
 ```
+
+Interacting within a .py script:
 
 ```python
 from inspire_hand import InspireHand
