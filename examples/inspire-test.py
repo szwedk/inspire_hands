@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 """
 Real-time finger tracking with MediaPipe to control Inspire Hand. 
+<<<<<<< HEAD
 <<<<<<< HEAD:inspire-test.py
 =======
 Written by Kamil Szwed, started Project on 07.15.25
 >>>>>>> 6cf2fb8 (Initial commit: Inspire 5-finger hand control code):examples/inspire-test.py
+=======
+>>>>>>> 3ae1969 (initial)
 Using inspire_hand Library + Mediapipe Library
 """
 
