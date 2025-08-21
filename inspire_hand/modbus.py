@@ -19,7 +19,7 @@ class ModbusFunction(IntEnum):
 class ModbusClient:
     """Low-level Modbus RTU client for communication with the Inspire Hand."""
     
-    def __init__(self, port: str = '/dev/ttyUSB0', baudrate: int = 115200, slave_id: int = 1):
+    def __init__(self, port: str = '/dev/tty.usbserial-210', baudrate: int = 115200, slave_id: int = 1):
         """
         Initialize the Modbus RTU client.
         

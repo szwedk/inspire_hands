@@ -43,7 +43,7 @@ pip install inspire-hand
 from inspire_hand import InspireHand
 
 # Connect to the hand
-with InspireHand(port='/dev/ttyUSB0') as hand:
+with InspireHand(port='/dev/tty.usbserial-210') as hand:
     # Open all fingers
     hand.open_all_fingers()
     
@@ -66,12 +66,12 @@ with InspireHand(port='/dev/ttyUSB0') as hand:
 from inspire_hand import InspireHand
 
 # Option 1: Using context manager (recommended)
-with InspireHand(port='/dev/ttyUSB0', baudrate=115200) as hand:
+with InspireHand(port='/dev/tty.usbserial-210', baudrate=115200) as hand:
     # Your code here
     pass
 
 # Option 2: Manual connection
-hand = InspireHand(port='/dev/ttyUSB0', baudrate=115200)
+hand = InspireHand(port='/dev/tty.usbserial-210', baudrate=115200)
 hand.open()
 # Your code here
 hand.close()

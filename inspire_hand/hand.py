@@ -156,7 +156,7 @@ class Finger:
 class InspireHand:
     """Interface for controlling the Inspire Hand RH56dfq."""
     
-    def __init__(self, port: str = '/dev/ttyUSB0', baudrate: int = 115200, slave_id: int = 1, debug: bool = False):
+    def __init__(self, port: str = '/dev/tty.usbserial-210', baudrate: int = 115200, slave_id: int = 1, debug: bool = False):
         """
         Initialize the Inspire Hand interface.
         

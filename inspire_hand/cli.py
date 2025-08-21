@@ -22,8 +22,8 @@ def create_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--port", "-p",
         type=str,
-        default="/dev/ttyUSB0",
-        help="Serial port to connect to (default: /dev/ttyUSB0)"
+        default="/dev/tty.usbserial-210",
+        help="Serial port to connect to (default: /dev/tty.usbserial-210)"
     )
     parser.add_argument(
         "--baudrate", "-b",
