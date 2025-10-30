@@ -20,7 +20,7 @@ def parse_args():
         "--port", "-p",
         type=str,
         default="/dev/tty.usbserial-210",
-        help="Serial port for the Inspire Hand (default: /dev/tty.usbserial-210)"
+        help="Serial port for the Inspire Hand (default: /dev/tty.usbserial-210"
     )
     parser.add_argument(
         "--baudrate", "-b",

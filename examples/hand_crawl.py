@@ -17,7 +17,7 @@ hand = InspireHand(SERIAL_PORT, baudrate=115200)
 hand.open()
 
 # Move to initial neutral pose
-hand.move_all([500] * 6)
+hand([500] * 6)
 time.sleep(1)
 
 # Define crawl steps
